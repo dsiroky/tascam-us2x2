@@ -1,0 +1,2 @@
+# tascam us-2x2
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0644", ATTRS{idProduct}=="8045", ENV{ID_ID}="usb-Tascam_US-2x2", ENV{PULSE_PROFILE_SET}="tascam-us2x2.conf", ENV{ACP_PROFILE_SET}="tascam-us2x2.conf"
